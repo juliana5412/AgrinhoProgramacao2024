@@ -1,113 +1,62 @@
-/* Estilos globais */
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: "Open Sans", sans-serif;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #faf3e0;
+  color: #333;
 }
 
-/* Cabeçalho */
-.cabecalho {
-    background-color: #2E7D32;  /* Verde escuro */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
+header {
+  background: #5a3e1b;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
-.cabecalho-titulo {
-    color: #A5D6A7;  /* Verde claro */
-    font-size: 54px;
+nav {
+  background: #b58e4a;
+  text-align: center;
 }
 
-.cabecalho-lista {
-    color: white;
-    font-size: 22px;
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
 }
 
-.cabecalho-logotipo {
-    width: 120px;
+nav li {
+  display: inline;
+  margin: 0 15px;
 }
 
-.cabecalho-lista-item {
-    display: inline-block;
-    margin: 0 16px;
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.sobre-escola {
-    background-image: linear-gradient(#2E7D32, #66BB6A);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
+section {
+  padding: 20px;
 }
 
-.sobre-escola-titulo {
-    font-size: 32px;
-    padding: 24px;
+h2 {
+  color: #5a3e1b;
 }
 
-.sobre-escola-texto {
-    font-size: 26px;
-    padding: 24px;
-    width: 50%;
+.botao {
+  background: #5a3e1b;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-.sobre-escola-imagem {
-    width: 30%;
+.botao:hover {
+  background: #7a5428;
 }
 
-.cursos {
-    background-color: #8BC34A;  
-    color: white;
+footer {
+  background: #ccc;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
 }
-
-.cursos-titulo {
-    text-align: center;
-    font-size: 32px;
-    padding: 24px 0;
-}
-
-.cursos-div-todos {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    gap: 16px;
-    padding: 24px 0;
-    justify-content: space-around;
-}
-
-.cursos-div {
-    text-align: center;
-    padding: 16px;
-    background-color: #558B2F; 
-    border-radius: 8px;
-}
-
-.curso-imagem {
-    width: 120px;
-}
-
-.curso-nome {
-    font-size: 24px;
-    margin: 16px 0;
-}
-
-.curso-descricao {
-    font-size: 18px;
-    color: #E8F5E9;
-}
-
-.rodape {
-    background-color: #2E7D32;
-    color: #A5D6A7;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-around;
-    padding: 50px 0;
-    align-items: center;
-}
-
-.rodape-imagem {
-    width: 70px;
-}
-
