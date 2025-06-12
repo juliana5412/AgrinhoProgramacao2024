@@ -1,69 +1,82 @@
-background: <img src="https://c.pxhere.com/photos/a4/e0/cowboy_guy_man_person_rails_walking_wild_west_public_domain_images-1049079.jpg!d" srcset="https://c.pxhere.com/photos/a4/e0/cowboy_guy_man_person_rails_walking_wild_west_public_domain_images-1049079.jpg!d" alt="homem, costa, horizonte, Caminhando, pessoa, Pista, Por do sol, estrada, campo, luz solar, manhã, cara, crepúsculo, transporte, tarde, Trilhos, vaqueiro, área rural, Oeste selvagem, Imagens de domínio público, Banco de imagens In PxHere">
+/* style.css - Expo Reserva 2025 */
+
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-  background: url('1.png') no-repeat center center;
-  background-size: cover;
-  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(90deg, #006400, #228B22);
+  color: white;
+  padding: 30px 20px;
   text-align: center;
 }
 
-/* Sobreposição escura para legibilidade */
-.overlay {
-  background-color: rgba(0, 60, 30, 0.6); /* Verde escuro translúcido */
-  padding: 60px 20px;
-  min-height: 100vh;
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+  letter-spacing: 2px;
 }
 
-/* Título principal */
-h1 {
-  font-size: 3em;
-  color: #fff8e7; /* Bege claro */
-  margin-bottom: 0.2em;
-}
-
-/* Subtítulo do ano */
-h2 {
-  color: #fff;
-  font-size: 2em;
-  margin-top: 0;
-}
-
-/* Texto de apoio */
-p {
-  font-size: 1.2em;
-  color: #e6e1da;
-  margin-bottom: 40px;
-}
-
-/* Botões amarelos */
-.btn {
-  background-color: #ffd700; /* Amarelo ouro */
+.event-dates {
+  background-color: #ffe600;
   color: #333;
-  padding: 15px 30px;
-  margin: 10px;
-  border: none;
-  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #2e8b57;
+  border-bottom: 2px solid #2e8b57;
+  padding-bottom: 5px;
+}
+
+.attractions {
+  margin: 20px 0;
+}
+
+.attractions h3 {
+  color: #b22222;
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.info {
+  margin-top: 30px;
+  background-color: #e0f7e9;
+  border-left: 5px solid #2e8b57;
+  padding: 15px;
   font-size: 1.1em;
-  cursor: pointer;
-  transition: 0.3s;
 }
 
-.btn:hover {
-  background-color: #e6c200;
-}
-
-/* Rodapé */
 .footer {
-  margin-top: 50px;
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: #ccc;
   font-size: 0.9em;
-  color: #c3f5d3;
+  margin-top: 40px;
 }
 
 .footer a {
-  color: #00ffcc;
+  color: #90ee90;
   text-decoration: none;
-  margin: 0 10px;
 }
 
 .footer a:hover {
